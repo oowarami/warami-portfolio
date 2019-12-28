@@ -10,16 +10,6 @@
 </head>
 
 <body class="wholebody">
-
-    <!-- Start Loader -->
-    <div class="section-loader">
-        <div class="loader">
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- End Loader -->
-
     <header class="wai-header">
         <!-- Links (at the top) -->
         <nav class="wai-navbar" id="wai-navbar">
@@ -28,15 +18,15 @@
     </button> -->
             <div class="navbar-container">
                 <ul id="wai-ul">
-                    <li id="title"><a href="#">WARAMI'S PORTFOLIO</a></li>
+                    <li id="title"><a href="#menu">WARAMI'S PORTFOLIO</a></li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#wai-home">HOME</a>
+                        <a class="nav_link" href="#wai-home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#wai-about">ABOUT ME</a>
+                        <a class="nav_link" href="#wai-about">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#wai-contact">CONTACT ME</a>
+                        <a class="nav_link" href="#wai-contact">CONTACT ME</a>
                     </li>
                 </ul>
             </div>
@@ -51,11 +41,11 @@
             <div>
                 <span>Hello I'm</span>
             </div>
-            <h2>Warami Eresanara</h2>
+            <h1>Warami Eresanara</h1>
             <h4>Student Web Designer</h4>
+            <img id="wai-image" src="images/black-girl-avatar.png" alt="black girl avatar">
         </div>
-
-        <div>
+        <div id="wai-introduction">
             <p>
                 Software development is such an important, ever-growing and ever-changing industry. It’s an industry I’ve grown to be passionate about over the last few months. I choose to apply to the Decagon program because I knew it will be the foundation that I need
                 to transition into this new career path. <br> While working I had the opportunity to help launch a software company and product. Working on this launch brought my attention to the importance of software design and the positive
@@ -66,6 +56,7 @@
             </p>
         </div>
     </section>
+
     <!-- end of home container -->
 
     <!-- About Me container -->
@@ -73,7 +64,7 @@
         <h2>About Me</h2>
         <p>Hello, I am Warami, a self-taugt web-developer. I have experience in HTML, CSS, and Javascript. I was not always a developer, I have had experiences in </p>
         <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-            <ul>
+            <ul class="about-li">
                 <li>people management</li>
                 <li>digital marketing</li>
                 <li>program and event coordinating</li>
@@ -86,29 +77,26 @@
     <section class="wai-contact" id="wai-contact">
         <h2>Contact Me</h2>
         <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
-            <div></div>
-            <div>
-                <div>
-                    <input name="name" id="name" type="text" placeholder="First Name" required>
-                </div>
-                <div>
-                    <input name="name" id="L_name" type="text" placeholder="Last Name" required>
-                </div>
-                <div>
-                    <input name="name" id="email" type="email" placeholder="Your Email" required>
-                </div>
-                <div>
-                    <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
-                </div>
-                <!-- Subject Button -->
-                <div class="submitBtn">
-                    <button type="submit" id="form-submit">Send Message</button>
-                </div>
-            </div>
+
+
+            <input name="name" id="name" type="text" placeholder="First Name" required>
+
+            <input name="name" id="L_name" type="text" placeholder="Last Name" required>
+
+            <input name="name" id="email" type="email" placeholder="Your Email" required>
+
+            <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
+            <!-- Subject Button -->
+            <button type="submit" id="form-submit">Send Message</button>
+
+
+
         </form>
     </section>
     <!--end of contact container  -->
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
