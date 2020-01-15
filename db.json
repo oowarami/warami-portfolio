@@ -1,102 +1,15 @@
 {
-  "Users": [
-    {
-      "id": 1,
-      "name": "warami",
-      "password": "hello",
-      "email": "warami@gmail.com",
-      "isAdmin": true
-    },
-    {
-      "id": 2,
-      "name": "laju",
-      "password": "hi",
-      "email": "laju@gmail.com",
-      "isAdmin": false
-    },
-    {
-      "name": "Uk",
-      "password": "1234",
-      "email": "uk@gmail.com",
-      "isAdmin": "false",
-      "id": 3
-    },
-    {
-      "name": "kemi",
-      "password": "gak",
-      "email": "kemi@gmail.com",
-      "isAdmin": "false",
-      "id": 4
-    },
-    {
-      "name": "moses",
-      "password": "ahaa",
-      "email": "moses@gmail.com",
-      "isAdmin": "false",
-      "id": 5
-    },
-    {
-      "name": "kemi",
-      "password": "kemilovesavocdo",
-      "email": "kemmi@live.co.uk",
-      "isAdmin": "false",
-      "id": 6
+    "posts": [{
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+    }],
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+    "profile": {
+        "name": "typicode"
     }
-  ],
-  "Requests": [
-    {
-      "start_date": "2019-10-15",
-      "end_date": "2019-10-15",
-      "leave_title": "yeah!!!",
-      "description": "ghgs",
-      "status": "pending",
-      "userId": "2",
-      "id": 1
-    },
-    {
-      "start_date": "2019-10-15",
-      "end_date": "2019-10-15",
-      "leave_title": "yeah!!!",
-      "description": "ghgs",
-      "status": "pending",
-      "userId": "2",
-      "id": 2
-    },
-    {
-      "start_date": "2019-10-26",
-      "end_date": "2019-10-26",
-      "leave_title": "haha",
-      "description": "lorem ipsum",
-      "status": "pending",
-      "userId": "8",
-      "id": 3
-    },
-    {
-      "start_date": "2019-10-27",
-      "end_date": "2019-10-29",
-      "leave_title": "vacation time",
-      "description": "jvjgilgil",
-      "status": "approved",
-      "userId": "5",
-      "id": 4
-    },
-    {
-      "start_date": "2019-10-31",
-      "end_date": "2019-11-06",
-      "leave_title": "sabbatical",
-      "description": "kggiooijoh",
-      "status": "disapproved",
-      "userId": "5",
-      "id": 5
-    },
-    {
-      "start_date": "2019-10-24",
-      "end_date": "2019-10-31",
-      "leave_title": "vacation",
-      "description": "efnenflejfef",
-      "status": "approved",
-      "userId": "6",
-      "id": 6
-    }
-  ]
 }
